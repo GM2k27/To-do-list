@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #ebc182;
+  padding: 30px;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 4rem;
+  font-style: oblique;
+  color: #333;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  border: 2px solid #ccc;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  width: 80vh;
+  display: block;
+  font-size: 2rem;
+  outline: none;
+}
+
+input:hover {
+  border: 5px solid #ee4815;
+}
+.add_but {
+  background-color: #ee4815;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  font-size: 1.5rem;
+  display: block;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+.add_but:hover {
+  background-color: #d13c10;
+}
+
+.task_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.todo {
+  font-size: 1.5rem;
+  width: 80vh;
+  min-height: 60px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.actions {
+  width: 140px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.delete {
+  background-color: #ee4815;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: none;
+
+}
